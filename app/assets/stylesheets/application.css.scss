@@ -45,6 +45,7 @@
 
 .footer-blurb {
 	font-size: 15px;
+	text-align: right;
 }
 
 .links {
@@ -82,6 +83,12 @@ h2.author {
 	font-style: italic;
 }
 
+h4 {
+	span {
+		color: #ddd;
+	}
+}
+
 .next-quote {
 	color: #D1491F;
 	font-size: 20px;
@@ -91,4 +98,14 @@ h2.author {
 	&:hover {
 		text-decoration: none;
 	}
+}
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+::selection {
+	background-color: #D1491F;
 }
