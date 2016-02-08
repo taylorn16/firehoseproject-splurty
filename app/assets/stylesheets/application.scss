@@ -47,9 +47,28 @@
 		color: black;
 		font-size: 25px;
 		border-bottom: 1px solid #222;
+
+		&:hover {
+			text-decoration: none;
+			color: #555;
+		}
 	}
 }
 
 header {
 	border-top: 9px solid #eaeaea;
+}
+
+h1.saying, h2.author {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 600;
+	letter-spacing: -1.5px
+}
+
+h1.saying {
+	font-size: 48px;
+}
+
+h2.author {
+	font-style: italic;
 }
