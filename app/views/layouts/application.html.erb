@@ -9,22 +9,32 @@
 <body>
 
 	<header>
-		<div class="row">
-			<div class="col-xs-3">
-				LOGO
-			</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3">
+					<div class="circle">
+						<br />
+						Wisdom
+						<br />
+						From
+						<br />
+						Wiz
+					</div>
 
-			<div class="col-xs-4">
-				Splurting out usolicited advice about fitness and philosophy since 2016.
-			</div>
+				</div>
 
-			<div class="col-xs-5">
-				<%= link_to 'Add Your Own', '#' %>
-				<%= link_to 'About', '#' %>
+				<div class="col-xs-4 slogan">
+					Splurting out usolicited advice about fitness and philosophy since 2016.
+				</div>
+
+				<div class="col-xs-5 links">
+					<%= link_to 'Add Your Own', '#' %>
+					<%= link_to 'About', '#' %>
+				</div>
 			</div>
 		</div>
 	</header>
-
+	<hr>
 <%= yield %>
 
 </body>
