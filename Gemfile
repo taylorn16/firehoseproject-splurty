@@ -49,3 +49,6 @@ end
 
 # Rails 12factor gem
 gem 'rails_12factor', group: :production
+
+# SimpleForm
+gem 'simple_form'

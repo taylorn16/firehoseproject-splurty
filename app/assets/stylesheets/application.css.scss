@@ -84,3 +84,9 @@ h2.author {
 	color: #D1491F;
 	font-size: 20px;
 }
+
+.logo {
+	&:hover {
+		text-decoration: none;
+	}
+}
